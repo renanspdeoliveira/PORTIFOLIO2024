@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-primaria: #f6f6f6;
+    --cor-secundaria: #000000;
+    --cor-terciaria: #577399;
+    --cor-hover: #577399;
+    --cor-html: #E34F26;
+    --cor-css: #1572B6;
+    --cor-javascript: #F7DF1E;
+
+    --fonte-principal: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+strong {
+    color: var(--cor-terciaria);
+}
+
+.titulo-destaque {
+    color: var(--cor-terciaria);
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.apresentacao__conteudo {
+    width: 100%;
+    max-width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25em;
+    font-family: var(--fonte-principal);
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.5em;
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.apresentacao__links_link {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+    max-width: 378px;
+    border: 0.2em solid var(--cor-terciaria);
+    text-align: center;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 1em 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links_link:hover {
+    background-color: var(--cor-hover);
+}
+
+.rodape {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    font-size: 1.87em;
+    padding: 1em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.cabecalho {
+    
+    padding: 5% 0 0 15%;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+    background-color: var(--cor-hover);
+    font-size: 1.87em;
+    padding: 1em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.renan {
+    max-width: 80%;
+    border-radius: 10%;
+    border: 0.2em solid var(--cor-terciaria);
+    margin: 0 20% auto;
+    justify-content: space-between;
+
+
+}
+
+div.box img:hover {
+    filter: grayscale(100%);
+    
+ 
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    
+}
+
+
+
+
+.email {
+
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+    max-width: 420px;
+    border: 0.2em solid var(--cor-terciaria);
+    text-align: center;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 1em 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+
+}
+
+
+.apresentacao__about {
+    padding: 5% 15%;
+    display: flex;
+    align-items: flex-start;
+    gap: 3em;
+}
+
+.apresentacao__about__texto {
+
+    font-size: 34px;
+    font-family: var(--fonte-principal);
+    margin: 0;
+
+}
+
+.apresentacao__about__texto {
+
+    font-size: 1.5em;
+    font-family: var(--fonte-principal);
+    margin: 0;
+
+}
+
+.apresentacao__about__habilidades {
+    font-size: 1.5em;
+    font-family: var(--fonte-secundaria);
+    margin: 0 5%;
+}
+
+.apresentacao__conteudo__texto__certificacao {
+    font-size: 20px;
+    font-family: var(--fonte-secundaria);
+    margin: 0 5%;
+
+}
+
+
+
+
+
+.img_skill {
+    width: 80px;
+
+}
+
+.orange_html,
+.blue_css,
+.yellow_js {
+    color: black;
+
+}
+
+.about_me {
+    font-size: 1.9em;
+    font-family: var(--fonte-principal)
+}
+
+
+
